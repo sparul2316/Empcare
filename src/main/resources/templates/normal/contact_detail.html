@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"  th:replace="normal/nbase::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>Home</title>
+</head>
+<body>
+
+	<section>
+		
+		<div class="card ms-3 me-5">
+		
+			<div class="card-body">
+				<div class="container text-center">
+					
+					<img style="height: 200px ; width:200px;"  class="my_profile_pic mt-3 mb-3" th:src="@{'/img/' + ${contact.image}}" src="" alt="profile photo">
+					  	
+					 <h2 class="mt-3" th:text="${contact.name}"></h2>
+					 
+					 <table class="table ms-5">
+						  <thead>
+						    <tr>
+						      <th scope="col">#ID</th>
+						      <th scope="col"><span  th:text="${contact.cId}"></span></th>
+						     
+						    </tr>
+						  </thead>
+						  <tbody>
+						    <tr >
+						      <th scope="row">Manager</th>
+						      <td> <span th:text= "${contact.manager}"></span></td>
+						    </tr>
+						    
+						    <tr>
+						      <th scope="row">Email</th>
+						      <td> <span th:text= "${contact.email}"></span></td>
+						    </tr>
+						    
+						    <tr>
+						      <th scope="row">Role</th>
+						      <td> <span th:text= "${contact.work}"></span></td>
+						    </tr>
+						     
+						    
+						    <tr>
+						      <th scope="row">Phone</th>
+						      <td> <span th:text= "${contact.phone}"></span></td>
+						    </tr>
+						    
+						    
+						  </tbody>
+						   
+					</table>
+					
+					<!-- description -->
+					<div class="description">
+						
+						<th:block th:text="${contact.description}"></th:block>
+					</div>
+					
+					<div class="container mt-5">
+						<a th:href="@{'/user/delete/' + ${contact.cId}}" href="#" class="btn btn-danger btn-small">Delete</a>	
+					    
+					    <form method="POST" th:action="@{'/user/update-contact/' + ${contact.cId}}" class="mt-2" >
+					      		<button type="submit" class="btn btn-primary btn-small">Update</button>
+					     </form>
+					</div>
+					
+					
+											 
+				</div>
+			</div>
+			
+			
+			
+		</div>
+		
+		
+		
+	</section>
+	
+	
+</body>
+</html>

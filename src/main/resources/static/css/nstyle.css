@@ -1,0 +1,115 @@
+
+
+
+body{
+	background-color: #e2e2e2 !important;
+}
+
+/* navbar */
+.bg-secondary{
+	background-color: #009688 !important;
+}
+
+
+
+/*  sidebar*/
+
+@media only screen and (max-width : 600px){
+	
+	.sidebar{
+		
+		display:none;
+		width:80% !important;
+		background-color: white;
+		height:100vh;
+		position:fixed;
+		padding-top: 20px;
+	
+	}
+	
+	.content{
+		margin-left: 0% !important;
+	}
+	
+}
+
+.sidebar{
+	
+	width:18%;
+	background-color: white;
+	height:100vh;
+	position:fixed;
+	padding-top: 45px;
+	transition-property: width;
+	transition-duration: 2s;
+  	transition-timing-function: linear;
+  	transition-delay: 1s;
+	z-index:100;
+	
+}
+
+.sidebar a{
+	
+	display:block;
+	width:100%;
+	padding: 10px 25px;
+	text-decoration:none;
+	color:grey;
+}
+
+.sidebar a:hover{
+	background:#e2e2e2;
+}
+
+.sidebar i{
+	margin-right:0.5rem;
+	
+}
+.sidebar .divider{
+	
+	height:.5px;
+	width:100%;
+	background:#e2e2e2;
+	margin-top:10px;
+}
+
+.sidebar .crossBtn{
+	position:absolute;
+	top:0;
+	right:35px;
+	font-size:38px;
+	cursor: pointer;
+	
+}
+
+.content{
+	margin-left:20%;
+	
+}
+
+
+
+/* contact page */
+
+
+
+.input-group , .custom-file{
+	margin-top: 10px;
+}
+
+.input-group-text .fa{
+	font-size:18px;
+	margin:3px;
+}
+
+
+/* show contacts page */
+
+.my_profile_pic{
+	
+	width:30px;
+	height:30px;
+	object-fit:cover;
+	border-radius:50%;
+	
+}

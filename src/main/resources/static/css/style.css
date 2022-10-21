@@ -1,0 +1,240 @@
+
+/* body{
+	background-color:grey !important;;
+} */
+/* navabr  */
+
+body{
+	margin:0;
+	padding:0;
+	/* background: linear-gradient(120deg, #EBD5FF 0%, #AFB1FF 100%); */
+}
+
+
+.bg-primary{
+	
+	background: linear-gradient(120deg, #D3BBF6  0%, #E0C3FC  100%);
+	background-color: #8981EA !important;
+	
+}
+
+
+
+
+
+/* Home page */
+
+.banner{
+	
+	margin:0;
+	padding:0;
+	width:100%;
+	height:95vh;
+	background-size:100% 100%;
+	color:white !important;
+	background: linear-gradient(120deg, #EBD5FF 0%, #AFB1FF 100%);
+}
+
+
+
+
+.home-container{
+	display:flex;
+	align-items:center;
+	justify-content:flex-start;
+	
+	
+	
+}
+
+.home-text-container{
+
+	text-align:center;
+	width:50%;
+	
+}
+
+.home-t{
+/* 	background-color:white; */
+	width:60%;
+	margin:auto;
+	text-align:left;
+}
+
+
+.home-text{
+	/* margin-left: -100px; */
+	color:#1d1d1d;
+	text-align:left;
+	
+}
+
+.home-t h1{
+	font-weight:bold;
+	font-size:3.3rem;
+	
+}
+
+.home-t p{
+	font-size:1.5rem;
+}
+
+.home-btn-cont{
+	display:flex;
+	align-items:center;
+	justify-content:flex-start;
+	margin-top:3px;
+}
+
+.home-btn{
+	background-color:#6400AD;
+	color:white;
+	/* margin-left: -100px; */
+}
+
+.home-btn:hover{
+	color:black;
+	border: 3px solid #AFB1FF;
+}
+
+
+.h-img-cont{
+	
+	height:100%;
+	width:50%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.home-img{
+	
+	width:100%;
+	height:85%;
+	margin-bottom:100px;
+}
+
+
+/* about sec */
+
+
+
+/* //sign-up page */
+
+.sign-back , .about-sec{
+	width:100%;
+	height:95vh;
+	background-color: #C9B3FF !important;
+}
+
+.my-card{
+	
+	padding:20px;
+	background-color: #E2CCFF !important;
+	
+	
+	border-radius: 54px;
+	
+	
+}
+
+.invalid-feedback{
+	color:red;
+}
+
+
+.my-card .form-group{
+	
+	margin-top:1rem;
+}
+.sign-back input{
+	background-color: #E3D8FF !important;
+	border: 1px solid #9C9C9C;
+}
+.sign-back textarea{
+	background-color: #E3D8FF !important;
+	border: 1px solid #9C9C9C;
+}
+
+.sign-sub{
+	background-color: #6400AD !important;
+	color:black;
+	font-weight : bold;
+}
+
+/* .my-card input{
+	background: linear-gradient(120deg, #D3BBF6  0%, #E0C3FC  100%);
+} */
+
+.my-card .btn{
+	margin-top:1rem;
+}
+
+
+
+/* login page css */
+
+.login-sec{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:95vh;
+	
+	background-color: #C9B3FF !important;
+}
+
+ #login-box{
+	background-color: #E2CCFF !important;
+	opacity:70%;
+	border-radius:5%;
+	color:black;
+}
+
+#login .container #login-row #login-column #login-box {
+
+  margin-top: 120px;
+  max-width: 600px;
+  height:450px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+  /* color:#AFB1FF !important; */
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+
+
+.rem_reg{
+	
+	margin-top:1rem;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	 
+}
+
+.reg{
+	color:black !important;
+	text-decoration: none;
+}
+
+#login-form input{
+	background-color: #E3D8FF !important;
+	border: 1px solid #9C9C9C;
+}
+
+#login-form input[type="submit"] {
+	
+	background-color: #6400AD !important;
+	color:black;
+	font-weight : bold;
+	margin-top:1rem;
+}
+
+
+
+
+
+
+
